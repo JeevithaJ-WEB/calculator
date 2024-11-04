@@ -8,6 +8,10 @@ int main()
    printf("enter 1 for addition \n 2 for subtraction \n 3 for multiplication \n 4 for divivsion\n");
     scanf("%d",&op);
     
+    float mul(float num1,float num2)
+{
+    return (num1 * num2);
+}
 
    return 0;
 }
